@@ -11,6 +11,8 @@
 		EF356CEC2713262200808DB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF356CEB2713262200808DB4 /* ContentView.swift */; };
 		EF356CEE2713262300808DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF356CED2713262300808DB4 /* Assets.xcassets */; };
 		EF356CF12713262300808DB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF356CF02713262300808DB4 /* Preview Assets.xcassets */; };
+		EF356CFA27132BDB00808DB4 /* BeaconStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF356CF927132BDB00808DB4 /* BeaconStateView.swift */; };
+		EF356CFD27132FA700808DB4 /* BeaconDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF356CFC27132FA700808DB4 /* BeaconDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EF356CED2713262300808DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF356CF02713262300808DB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF356CF22713262300808DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF356CF927132BDB00808DB4 /* BeaconStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconStateView.swift; sourceTree = "<group>"; };
+		EF356CFC27132FA700808DB4 /* BeaconDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				EF356CE92713262200808DB4 /* BeaconsDetectorApp.swift */,
 				EF356CEB2713262200808DB4 /* ContentView.swift */,
+				EF356CF927132BDB00808DB4 /* BeaconStateView.swift */,
 				EF356CED2713262300808DB4 /* Assets.xcassets */,
 				EF356CF22713262300808DB4 /* Info.plist */,
 				EF356CEF2713262300808DB4 /* Preview Content */,
+				EF356CFC27132FA700808DB4 /* BeaconDetector.swift */,
 			);
 			path = BeaconsDetector;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF356CEC2713262200808DB4 /* ContentView.swift in Sources */,
+				EF356CFD27132FA700808DB4 /* BeaconDetector.swift in Sources */,
 				EF356CEA2713262200808DB4 /* BeaconsDetectorApp.swift in Sources */,
+				EF356CFA27132BDB00808DB4 /* BeaconStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
